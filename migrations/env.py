@@ -13,7 +13,7 @@ config = context.config
 if debug == True:
     config.set_main_option("sqlalchemy.url","postgresql://postgres:king2002@localhost:5432/result")
 else:
-    config.set_main_option("sqlalchemy.url","")
+    config.set_main_option("sqlalchemy.url","postgresql://wssdjzzxksktwj:7acbef1c4e5d544ed4ec45a6a98cb38a9f979972ebcb4e3786ede8bb3d5f6ac0@ec2-3-208-79-113.compute-1.amazonaws.com:5432/d313rbptq5cohj")
 
 
 # Interpret the config file for Python logging.
